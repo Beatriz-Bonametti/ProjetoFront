@@ -1,0 +1,167 @@
+body{
+  background-color: blanchedalmond;
+}
+
+header::before{
+  content: '';
+  background-image: url(../imgs/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+header{
+  background-color: black;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+a:hover{
+  color: brown;
+ 
+}
+
+a{
+  text-decoration: none;
+}
+
+.logo{
+  border-radius: 20px;
+  width: 170px;
+  height: 170px;
+
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.lis{
+  padding: 10px;
+}
+
+footer {
+  width: 98%;
+  margin: auto;
+  margin: 2px 0 -10px 0px;
+  bottom: 0;
+  padding: 20px;
+  background: rgb(156, 156, 156);
+  position: relative;
+}
+
+.aredond2{
+  margin: 20px;
+  height: 30px;
+  width: 700px;
+  border-radius: 50px;
+}
+
+.versao-button{
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  height: 40px;
+  width: auto;
+  font-size: large;
+  background-color:white;
+  color: black;
+}
+
+ul{
+  list-style-type: none;
+  text-align: right;
+  padding: 2px;
+  position: relative;  
+}
+
+.kanit-thin {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.sour-gummy-font {
+  font-family: "Sour Gummy", sans-serif;
+  font-weight: 800;
+  font-size: large;
+  font-style: normal;
+  font-variation-settings:  "wdth" 100;
+}
+
+.ga-maamli-regular {
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.texto{
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(171, 235, 171);
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.format-texto{
+  font-size: x-large;
+}
+
+.format-videos{
+  margin-top: 2%;
+}
+
+.titulo-frutas{
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.blocos{
+  background-color: rgb(177, 177, 252);
+  position: relative;
+  border: 1px solid green;
+  border-radius: 20px;
+  margin: 15px;
+  width: 15%;
+  height: 200px;
+  box-shadow: 0px 8px 16px #a2ad05;
+}
+
+.blocks{
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.imgsfruits{
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  margin-left: 25%;
+  margin-bottom: 2px;
+}
+
+.textfruits{
+  text-align: center;
+}
+
+.ver-mais{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

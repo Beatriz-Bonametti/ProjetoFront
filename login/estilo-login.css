@@ -1,0 +1,150 @@
+.background{
+  background-color: transparent;
+  background-image: url(../imgs/background.jpg);
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.background::before{
+  content: '';
+  background-image: url(../imgs/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  position: relative;
+}
+
+
+.centro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  height: 80%;
+  margin: auto;
+  border-radius: 10px;
+  background-color: white;
+
+}
+
+.aredond{
+  margin: 20px;
+  height: 30px;
+  width: 55%;
+  border-radius: 50px;
+}
+
+.aredond2{
+  margin: 20px;
+  height: 30px;
+  width: 700px;
+  border-radius: 50px;
+}
+.aredond3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  margin: 20px;
+  height: 30px;
+  width: 100%;
+  border-radius: 50px;
+  background-color: greenyellow;
+}
+
+label{
+  display: inline-block;
+  width: 70px;
+  font-size: large;
+}
+
+
+.spantext{
+  display: inline-block;
+  width: 120px;
+  font-size: medium;
+}
+
+form{
+  width: 50%;
+  margin: auto;
+  position: relative;
+}
+
+footer {
+  width: 98%;
+  margin: auto;
+  margin: 2px 0 -10px 0px;
+  bottom: 0;
+  padding: 20px;
+  background: rgb(156, 156, 156);
+  position: relative;
+}
+
+.button_home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  height: 40px;
+  width: 10%;
+  position: relative;
+}
+
+a:hover{
+  color: brown;
+ 
+}
+
+a{
+  text-decoration: none;
+}
+
+.textfruits{
+  text-align: center;
+}
+
+.ver-mais{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.versao-button{
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  height: 40px;
+  width: auto;
+  font-size: large;
+  background-color:white;
+  color: black;
+}
+
+.versao-button-home{
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  border-radius: 16px;
+  height: 40px;
+  width: 10%;
+  font-size: large;
+  background-color:white;
+  color: black;
+}
