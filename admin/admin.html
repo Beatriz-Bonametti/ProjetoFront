@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="admin.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <title>ADMIN</title>
+  </head>
+  <body class="background">
+    <a href="../index.html" class="versao-button-home">
+      HOME -
+      <span class="material-symbols-outlined"> home </span>
+    </a>
+    <div class="container">
+      <form id="userForm">
+        <div>
+          <h1 class="head">ADMIN</h1>
+        </div>
+        <div class="centro">
+          <label for="user">UserName:</label>
+          <input
+            type="text"
+            id="user"
+            name="user"
+            size="30"
+            class="aredond"
+            placeholder="nome usuario"
+            required
+          />
+
+          <br /><br />
+
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+            size="30"
+            class="aredond"
+            placeholder="exemplo@email.com"
+            required
+          />
+        </div>
+        <br /><br />
+        <button type="submit" class="aredond3" id="submit-button">
+          Cadastrar
+        </button>
+      </form>
+
+      <br />
+
+      <div id="search-container">
+        <input type="text" id="search" placeholder="Pesquisar..." />
+        <button type="button" id="search-button">Pesquisar</button>
+        <button type="button" id="clear-button">Limpar Pesquisa</button>
+
+        <ul id="userList">
+          <li class="user-item"></li>
+          <button type="button" class="delete-button">Excluir</button>
+        </ul>
+
+        <button type="button" id="clear-button-all">Excluir Todos</button>
+      </div>
+    </div>
+    <br /><br />
+    <script src="../admin/admin.js"></script>
+    <footer>
+      <p class="textfruits">
+        Feito por Beatriz, Gabriel, Thayrine - Estudantes do curso de Analise e
+        Desenvolvimento de Sistemas - UTFPR <br /><br />
+        Cornélio Procópio - 2024
+      </p>
+      <a href="../curriculos/curriculos.html" class="textfruits, ver-mais"
+        >CURRICULOS</a
+      >
+    </footer>
+  </body>
+</html>

@@ -1,12 +1,12 @@
-.background{
+.background {
   background-color: transparent;
   background-image: url(../imgs/background.jpg);
   background-repeat: no-repeat;
   position: relative;
 }
 
-.background::before{
-  content: '';
+.background::before {
+  content: "";
   background-image: url(../imgs/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -19,7 +19,7 @@
   bottom: 0;
 }
 
-.container{
+.container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,8 +27,7 @@
   position: relative;
 }
 
-
-.centro{
+.centro {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,23 +37,27 @@
   margin: auto;
   border-radius: 10px;
   background-color: white;
-
 }
 
-.aredond{
+.aredond {
   margin: 20px;
   height: 30px;
   width: 55%;
-  border-radius: 50px;
 }
 
-.aredond2{
+input {
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.aredond2 {
   margin: 20px;
   height: 30px;
   width: 700px;
   border-radius: 50px;
 }
-.aredond3{
+.aredond3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,24 +65,23 @@
   margin: 20px;
   height: 30px;
   width: 100%;
-  border-radius: 50px;
   background-color: greenyellow;
 }
 
-label{
+label {
   display: inline-block;
   width: 70px;
   font-size: large;
+  font-weight: bold;
 }
 
-
-.spantext{
+.spantext {
   display: inline-block;
   width: 120px;
   font-size: medium;
 }
 
-form{
+form {
   width: 50%;
   margin: auto;
   position: relative;
@@ -95,7 +97,7 @@ footer {
   position: relative;
 }
 
-.button_home{
+.button_home {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -105,38 +107,37 @@ footer {
   position: relative;
 }
 
-a:hover{
+a:hover {
   color: brown;
- 
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.textfruits{
+.textfruits {
   text-align: center;
 }
 
-.ver-mais{
+.ver-mais {
   display: flex;
   justify-content: center;
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.versao-button{
+.versao-button {
   display: flex;
   align-items: center;
   border-radius: 16px;
   height: 40px;
   width: auto;
   font-size: large;
-  background-color:white;
+  background-color: white;
   color: black;
 }
 
-.versao-button-home{
+.versao-button-home {
   display: flex;
   align-items: center;
   position: relative;
@@ -145,6 +146,22 @@ a{
   height: 40px;
   width: 10%;
   font-size: large;
-  background-color:white;
+  background-color: white;
   color: black;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: greenyellow;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  color: #000000;
+}
+
+button:hover {
+  background-color: #03d3c8;
 }
